@@ -19,6 +19,8 @@ limitations under the License.
 package tools
 
 import (
+	_ "code.gitea.io/sdk/gitea"
+	_ "github.com/drone/drone-go/drone"
 	_ "k8s.io/code-generator/cmd/client-gen"
 	_ "k8s.io/code-generator/cmd/deepcopy-gen"
 	_ "k8s.io/code-generator/cmd/informer-gen"
